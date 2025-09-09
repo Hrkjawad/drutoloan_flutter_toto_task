@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-enum TaskStatus { ready, pending, complete }
+enum TaskStatus { ready, pending, completed }
 
 class StatusRadioButtons extends StatelessWidget {
   final TaskStatus selectedStatus;
@@ -33,7 +33,7 @@ class StatusRadioButtons extends StatelessWidget {
             contentPadding: EdgeInsets.only(left: 125),
           ),
           RadioListTile(
-            value: TaskStatus.complete,
+            value: TaskStatus.completed,
             title: Text('Completed'),
             contentPadding: EdgeInsets.only(left: 125),
           ),
