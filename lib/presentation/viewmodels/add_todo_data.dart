@@ -1,4 +1,4 @@
-import 'package:drutoloan_flutter_todo_task/presentation/viewmodels/store_todo.dart';
+import 'package:drutoloan_flutter_todo_task/core/store_todo.dart';
 
 import '../../data/model.dart';
 

@@ -1,6 +1,6 @@
 import 'dart:io';
-import '../../core/csv_read_write.dart';
-import '../../data/model.dart';
+import 'csv_read_write.dart';
+import '../data/model.dart';
 
 class Store {
   late CsvService csvService;

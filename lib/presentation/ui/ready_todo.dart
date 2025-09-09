@@ -1,7 +1,7 @@
 import 'package:drutoloan_flutter_todo_task/presentation/ui/widgets/todo_list_view.dart';
 import 'package:flutter/material.dart';
 import '../../data/model.dart';
-import '../viewmodels/store_todo.dart';
+import '../../core/store_todo.dart';
 
 class ReadyTodo extends StatefulWidget {
   const ReadyTodo({super.key});
