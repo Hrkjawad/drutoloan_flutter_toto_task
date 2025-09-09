@@ -10,6 +10,8 @@ on:
       - beta
 
 name: "Build & Release"
+permissions:
+  contents: write
 
 jobs:
   build:
