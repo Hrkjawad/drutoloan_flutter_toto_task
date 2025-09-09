@@ -38,19 +38,6 @@ jobs:
       - name: Build Android APK
         run: flutter build apk --release
 
-      # ✅ Build Android App Bundle (.aab)
-      - name: Build Android App Bundle
-        run: flutter build appbundle --release
-
-      # ✅ Build iOS (Device) .ipa
-      - name: Build iOS Device IPA
-        run: |
-          flutter build ios --release --no-codesign
-          cd build/ios/iphoneos
-          mkdir -p Payload
-          cp -r Runner.app Payload/
-          zip -r app.ipa Payload
-
 
       # ✅ Upload All Artifacts to GitHub Release
       - name: Push to Releases
